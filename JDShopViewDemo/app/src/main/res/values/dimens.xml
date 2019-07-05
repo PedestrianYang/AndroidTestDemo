@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_40dp">40.0dip</dimen>
+    <dimen name="dimen_42dp">42.0dip</dimen>
+    <dimen name="dimen_48dp">48.0dip</dimen>
+    <dimen name="dimen_80dp">80.0dip</dimen>
+    <dimen name="dimen_100dp">100.0dip</dimen>
+    <dimen name="dimen_142dp">142.0dip</dimen>
+    <dimen name="dimen_200dp">200.0dip</dimen>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ymq.com.jdshopviewdemo.JDShopActivity">
+
+    <include layout="@layout/standard_title" android:id="@+id/title"/>
+
+    <ymq.com.jdshopviewdemo.widget.SlidingestedNView
+        android:id="@+id/scorll_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/shop_info_container"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/shop_icon"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@+id/shop_icon"
+                android:text="Android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/shop_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/ic_launcher" />
+        </RelativeLayout>
+
+
+
+        <net.lucode.hackware.magicindicator.MagicIndicator
+            android:id="@+id/my_order_list_titles"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip">
+        </net.lucode.hackware.magicindicator.MagicIndicator>
+
+        <ymq.com.jdshopviewdemo.widget.NoScrollViewPager
+            android:background="@color/transparent"
+            android:id="@+id/my_order_list_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ymq.com.jdshopviewdemo.widget.SlidingestedNView>
+</LinearLayout>

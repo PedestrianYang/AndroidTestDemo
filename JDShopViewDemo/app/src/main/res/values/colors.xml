@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_bg">#fffafafa</color>
+    <color name="title_line">#ffe4e4e4</color>
+    <color name="black_25">#ff252525</color>
+    <color name="gray_66">#ff666666</color>
+    <color name="comm_ui_bg">#fff3f5f6</color>
+    <color name="comm_bg_line">#ffe8e8e8</color>
+    <color name="my_order_btn_pressed">#e5e5e5</color>
+    <color name="my_order_titles_color">#3a3a3a</color>
+    <color name="my_order_btn_red">#e2302e</color>
+    <color name="transparent">#00000000</color>
+</resources>
